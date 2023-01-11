@@ -1,0 +1,91 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f2fbea;
+    /* //font style// */
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* //header-part-start// */
+header {
+    background-image: linear-gradient(-180deg, #ebe79b04, #81958d), url(../img/shop-header-background.jpg);
+    background-position: center;
+    color: white;
+}
+
+header h2 {
+    margin: 50px;
+    font-size: 40px;
+    padding-bottom: 100px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    margin: 0 50px;
+}
+
+h1 {
+    flex: 10;
+    font-size: 50px;
+}
+
+/* //nav-start// */
+nav {
+    display: flex;
+    text-align: right;
+    flex: 1;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+nav a button {
+    padding: 5px 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(35, 188, 188);
+    border: none;
+}
+
+/* //nav end// */
+
+/* //thankink-part// */
+.thanking-part {
+    text-align: center;
+    padding: 50px;
+}
+
+.thanking-part p {
+    font-size: 28px;
+    line-height: 10px;
+    font-weight: 900;
+}
+
+.thanking-part.thanking-part button {
+    padding: 5px 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(35, 188, 188);
+    border: none;
+    margin: 50px;
+}
+
+/* //footer// */
+footer {
+    text-align: center;
+    color: white;
+    background-color: #312b4a;
+    padding: 20px;
+}

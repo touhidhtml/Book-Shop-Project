@@ -1,0 +1,234 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f2fbea;
+    /* //font style// */
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin: 0 50px;
+}
+
+h1 {
+    flex: 10;
+}
+
+/* //nav-start// */
+nav {
+    display: flex;
+    text-align: right;
+    flex: 1;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a button {
+    padding: 5px 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(35, 188, 188);
+    border: none;
+}
+
+/* //nav end// */
+
+/* hero container */
+.hero-container {
+    display: flex;
+    margin: 50px;
+    align-items: center;
+
+}
+
+.hero-content-container {
+    flex: 10;
+    display: flex;
+    flex-direction: column;
+    line-height: 5px;
+}
+
+.hero-content-container h2 {
+    margin: 0;
+}
+
+.hero-content-container button {
+    width: 190px;
+    padding: 5px 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(35, 188, 188);
+    border: none;
+}
+
+/* Collection part start here */
+.collection-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px;
+}
+
+.collection-container-headline {
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #231557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 40px;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+/* //collection-common-style-start// */
+.tag-free {
+    width: 70px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+.btn-download {
+    width: 190px;
+    padding: 5px 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #23bcbc;
+    border: none;
+    margin-top: 10px;
+}
+
+/* //collection-common-style-end */
+
+.collection-parent {
+    display: flex;
+    gap: 20px;
+}
+
+.collection-1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(187, 64, 64);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.collection-1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.collection-1-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: 2px solid #23bcbc;
+    padding: 20px;
+    margin: 20px;
+}
+
+.collection-2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(187, 64, 64);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.collection-2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.collection-2-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: 2px solid #23bcbc;
+    padding: 20px;
+    margin: 20px;
+}
+
+.collection-3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(187, 64, 64);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.collection-3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.collection-3-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: 2px solid #23bcbc;
+    padding: 20px;
+    margin: 20px;
+}
+
+.collection-4 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(187, 64, 64);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.collection-4 img {
+    width: 100%;
+    height: 100%;
+}
+
+.collection-4-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: 2px solid #23bcbc;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* //footer// */
+footer {
+    text-align: center;
+    color: white;
+    background-color: #312b4a;
+    padding: 20px;
+}
