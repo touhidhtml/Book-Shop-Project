@@ -89,3 +89,24 @@ footer {
     background-color: #312b4a;
     padding: 20px;
 }
+
+/* //mobile part start */
+@media(max-width:767px){
+    header{
+        text-align: center;
+    }
+    h1{
+        color: rgb(255, 255, 255);
+        font-weight: 900;
+        background-color: black;
+        padding: 0 30px;
+        border-radius: 20px;
+    }
+    header .header-top{
+        flex-direction: column;
+    }
+    .thanking-part p{
+        line-height: 40px;
+        color: bisque;
+    }
+}

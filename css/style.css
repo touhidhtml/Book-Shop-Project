@@ -121,13 +121,13 @@ nav a button {
 }
 
 .btn-download {
-    width: 190px;
+    
     padding: 5px 25px;
+    margin-top: 10px;
     font-size: 20px;
     border-radius: 5px;
-    background-color: #23bcbc;
+    background-color: rgb(35, 188, 188);
     border: none;
-    margin-top: 10px;
 }
 
 /* //collection-common-style-end */
@@ -231,4 +231,20 @@ footer {
     color: white;
     background-color: #312b4a;
     padding: 20px;
+}
+
+/* //mobile part-start */
+@media(max-width:767px){
+    header {
+        flex-direction: column;
+    }
+    .hero-container{
+        flex-direction: column;
+    }
+    .hero-content-container p{
+        line-height: 30px;
+    }
+    .collection-parent{
+        flex-direction: column;
+    }
 }

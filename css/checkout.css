@@ -120,3 +120,19 @@ footer {
     background-color: #312b4a;
     padding: 20px;
 }
+
+/* m0bile part start */
+@media(max-width:767px){
+    header{
+        text-align: center;
+    }
+    header .header-top{
+        flex-direction: column;
+    }
+    .product{
+        display: none;
+    }
+    form input{
+        width: 90%;
+    }
+}

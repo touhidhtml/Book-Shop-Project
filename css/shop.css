@@ -11,9 +11,11 @@ body {
     font-family: 'Sofia Sans Condensed', sans-serif;
     font-family: 'Titillium Web', sans-serif;
 }
+
 * {
     box-sizing: border-box;
 }
+
 /* //header-part-start// */
 header {
 
@@ -21,20 +23,24 @@ header {
     background-size: contain;
     color: white;
 }
+
 header h2 {
     margin: 50px;
     font-size: 40px;
     padding-bottom: 100px;
 }
+
 .header-top {
     display: flex;
     align-items: center;
     margin: 0 50px;
 }
+
 h1 {
     flex: 10;
     font-size: 50px;
 }
+
 /* //nav-start// */
 nav {
     display: flex;
@@ -44,10 +50,12 @@ nav {
     font-size: 20px;
     font-weight: 600;
 }
+
 nav a {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
+
 nav a button {
     padding: 5px 25px;
     font-size: 20px;
@@ -55,6 +63,7 @@ nav a button {
     background-color: rgb(35, 188, 188);
     border: none;
 }
+
 /* //nav end// */
 
 /* Collection part start here */
@@ -64,6 +73,7 @@ nav a button {
     text-align: center;
     margin: 50px;
 }
+
 /* //collection-common-style-start// */
 .price {
     width: 70px;
@@ -71,7 +81,8 @@ nav a button {
     color: #ffffff;
     text-align: center;
 }
-.btn-buy button{
+
+.btn-buy button {
     padding: 5px 25px;
     margin-top: 10px;
     font-size: 20px;
@@ -181,4 +192,23 @@ footer {
     color: white;
     background-color: #312b4a;
     padding: 20px;
+}
+
+/* //mobile part-start */
+@media(max-width:767px) {
+    header {
+        text-align: center;
+    }
+    .header-top {
+        flex-direction: column;
+    }
+    .hero-container {
+        flex-direction: column;
+    }
+    .hero-content-container p {
+        line-height: 30px;
+    }
+    .collection-parent {
+        flex-direction: column;
+    }
 }
