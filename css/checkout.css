@@ -18,6 +18,7 @@ header {
     background-position: center;
     color: white;
 }
+
 header h2 {
     margin: 50px;
     font-size: 40px;
@@ -29,23 +30,27 @@ header h2 {
     align-items: center;
     margin: 0 50px;
 }
+
 h1 {
     flex: 10;
     font-size: 50px;
 }
+
 /* //nav-start// */
 nav {
     display: flex;
     text-align: right;
     flex: 1;
     gap: 30px;
-    font-size: 20px;
     font-weight: 600;
 }
+
 nav a {
     color: rgb(255, 255, 255);
     text-decoration: none;
+    font-size: 20px;
 }
+
 nav a button {
     padding: 5px 25px;
     font-size: 20px;
@@ -53,28 +58,32 @@ nav a button {
     background-color: rgb(35, 188, 188);
     border: none;
 }
+
 /* //nav end// */
 
 /* form start */
-.container{
+.container {
     margin: 50px;
     display: flex;
     gap: 20px;
 }
-form{
+
+form {
     flex: 3;
     display: flex;
     flex-direction: column;
     border: 2px solid rgb(50, 29, 103);
     padding: 20px;
 }
-form input{
-    width: 70%;
+
+form input {
+    width: 95%;
     padding: 10px;
     border: 0;
     border-bottom: 2px solid black;
 }
-form button{
+
+form button {
     padding: 5px 25px;
     margin-top: 20px;
     font-size: 20px;
@@ -86,6 +95,7 @@ form button{
 /* //product-start// */
 .product {
     flex: 1;
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
     border: 2px solid rgb(187, 64, 64);
@@ -104,8 +114,8 @@ form button{
     border: 2px solid #23bcbc;
     padding: 20px;
     margin: 20px;
-    
 }
+
 .price {
     width: 70px;
     background-color: #000000;
@@ -122,17 +132,20 @@ footer {
 }
 
 /* m0bile part start */
-@media(max-width:767px){
-    header{
+@media(max-width:767px) {
+    header {
         text-align: center;
     }
-    header .header-top{
+
+    header .header-top {
         flex-direction: column;
     }
-    .product{
+
+    .product {
         display: none;
     }
-    form input{
+
+    form input {
         width: 90%;
     }
 }

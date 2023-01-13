@@ -19,11 +19,13 @@ body {
 header {
     display: flex;
     align-items: center;
+    padding-top: 7px;
     margin: 0 50px;
 }
 
 h1 {
     flex: 10;
+    font-size: 50px;
 }
 
 /* //nav-start// */
@@ -32,13 +34,13 @@ nav {
     text-align: right;
     flex: 1;
     gap: 30px;
-    font-size: 20px;
     font-weight: 600;
 }
 
 nav a {
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
+    font-size: 20px;
 }
 
 nav a button {
@@ -56,7 +58,6 @@ nav a button {
     display: flex;
     margin: 50px;
     align-items: center;
-
 }
 
 .hero-content-container {
@@ -70,13 +71,19 @@ nav a button {
     margin: 0;
 }
 
+.hero-content-container .hero-p-2 {
+    margin-top: -2px;
+}
+
 .hero-content-container button {
+    margin-top: 20px;
     width: 190px;
     padding: 5px 25px;
     font-size: 20px;
     border-radius: 5px;
     background-color: rgb(35, 188, 188);
     border: none;
+    cursor: pointer;
 }
 
 /* Collection part start here */
@@ -112,7 +119,6 @@ nav a button {
     }
 }
 
-/* //collection-common-style-start// */
 .tag-free {
     width: 70px;
     background-color: #000000;
@@ -121,7 +127,7 @@ nav a button {
 }
 
 .btn-download {
-    
+    cursor: pointer;
     padding: 5px 25px;
     margin-top: 10px;
     font-size: 20px;
@@ -130,14 +136,12 @@ nav a button {
     border: none;
 }
 
-/* //collection-common-style-end */
-
 .collection-parent {
     display: flex;
     gap: 20px;
 }
 
-.collection-1 {
+.collection {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -145,78 +149,12 @@ nav a button {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.collection-1 img {
+.collection img {
     width: 100%;
-    height: 100%;
+    height: 200px;
 }
 
-.collection-1-content {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    border: 2px solid #23bcbc;
-    padding: 20px;
-    margin: 20px;
-}
-
-.collection-2 {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    border: 2px solid rgb(187, 64, 64);
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-.collection-2 img {
-    width: 100%;
-    height: 100%;
-}
-
-.collection-2-content {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    border: 2px solid #23bcbc;
-    padding: 20px;
-    margin: 20px;
-}
-
-.collection-3 {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    border: 2px solid rgb(187, 64, 64);
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-.collection-3 img {
-    width: 100%;
-    height: 100%;
-}
-
-.collection-3-content {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    border: 2px solid #23bcbc;
-    padding: 20px;
-    margin: 20px;
-}
-
-.collection-4 {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    border: 2px solid rgb(187, 64, 64);
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-.collection-4 img {
-    width: 100%;
-    height: 100%;
-}
-
-.collection-4-content {
+.collection-content {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -234,17 +172,27 @@ footer {
 }
 
 /* //mobile part-start */
-@media(max-width:767px){
+@media(max-width:767px) {
     header {
         flex-direction: column;
     }
-    .hero-container{
+
+    .hero-container {
         flex-direction: column;
     }
-    .hero-content-container p{
+
+    .hero-content-container p {
         line-height: 30px;
     }
-    .collection-parent{
+
+    .collection-parent {
         flex-direction: column;
     }
+
+    .hero-img-container img {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: -50px;
+    }
+
 }

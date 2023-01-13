@@ -14,15 +14,9 @@ body {
 
 /* //header-part-start// */
 header {
-    background-image: linear-gradient(-180deg, #ebe79b04, #81958d), url(../img/shop-header-background.jpg);
+    background-image: linear-gradient(-180deg, #00000004, #312f5b), url(../img/thank-header-bg.jpg);
     background-position: center;
     color: white;
-}
-
-header h2 {
-    margin: 50px;
-    font-size: 40px;
-    padding-bottom: 100px;
 }
 
 .header-top {
@@ -42,13 +36,13 @@ nav {
     text-align: right;
     flex: 1;
     gap: 30px;
-    font-size: 20px;
     font-weight: 600;
 }
 
 nav a {
     color: rgb(255, 255, 255);
     text-decoration: none;
+    font-size: 20px;
 }
 
 nav a button {
@@ -61,6 +55,13 @@ nav a button {
 
 /* //nav end// */
 
+header h2 {
+    color: rgb(23, 230, 50);
+    margin: 50px;
+    font-size: 40px;
+    padding-bottom: 100px;
+}
+
 /* //thankink-part// */
 .thanking-part {
     text-align: center;
@@ -68,9 +69,11 @@ nav a button {
 }
 
 .thanking-part p {
-    font-size: 28px;
+    font-size: 20px;
+    word-spacing: 5px;
+    color: rgb(224, 208, 60);
     line-height: 10px;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .thanking-part.thanking-part button {
@@ -91,21 +94,24 @@ footer {
 }
 
 /* //mobile part start */
-@media(max-width:767px){
-    header{
+@media(max-width:767px) {
+    header {
         text-align: center;
     }
-    h1{
+
+    h1 {
         color: rgb(255, 255, 255);
         font-weight: 900;
         background-color: black;
         padding: 0 30px;
         border-radius: 20px;
     }
-    header .header-top{
+
+    header .header-top {
         flex-direction: column;
     }
-    .thanking-part p{
+
+    .thanking-part p {
         line-height: 40px;
         color: bisque;
     }
