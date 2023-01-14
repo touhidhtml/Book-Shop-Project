@@ -121,14 +121,14 @@ header h2 {
     transition: 2s;
     display: inline-block;
     background-color: #000000;
-    /* show the button */
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 6%;
     color: white;
-    margin-top: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     cursor: pointer;
 }
 
@@ -136,15 +136,6 @@ header h2 {
     background-color: #23bcbc;
     height: 100%;
 }
-
-
-
-
-
-
-
-
-
 
 /* //footer// */
 footer {
