@@ -166,4 +166,8 @@ footer {
     .collection-parent {
         flex-direction: column;
     }
+
+    .collection-container {
+        margin: 0;
+    }
 }

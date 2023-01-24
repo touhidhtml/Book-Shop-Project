@@ -194,5 +194,7 @@ footer {
         margin-top: 50px;
         margin-bottom: -50px;
     }
-
+    .collection-container{
+        margin: 0;
+    }
 }
